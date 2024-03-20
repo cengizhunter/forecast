@@ -5,7 +5,7 @@ import seaborn as sns
 st.set_option('deprecation.showPyplotGlobalUse', False)
 def show_plot_page():
     # Load the data
-    data = pd.read_csv(r"C:\Users\cengi\Desktop\streamlit\forecast.csv")
+    data = pd.read_csv("forecast.csv")
 
     # City selection
     selected_cities = st.multiselect(
