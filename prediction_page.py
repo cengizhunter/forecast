@@ -7,7 +7,7 @@ import plotly.express as px
 
 def show_prediction_page():
     # Load the data
-    data = pd.read_csv(r"C:\Users\cengi\Desktop\streamlit\forecast.csv")
+    data = pd.read_csv("forecast.csv")
 
     # City selection
     selected_cities = st.multiselect(
